@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+header {
+    text-align: center;
+    background-color: #ff9800;
+    color: white;
+    padding: 20px;
+}
+
+.recipe,
+.about {
+    background-color: white;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #ff9800;
+}
