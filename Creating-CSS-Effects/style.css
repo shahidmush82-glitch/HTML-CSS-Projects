@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.title {
+    color: navy;
+    transition: color 0.5s ease;
+}
+
+.title:hover {
+    color: red;
+}
+
+.btn {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
