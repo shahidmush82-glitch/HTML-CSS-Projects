@@ -1,13 +1,122 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My First Project</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academy Cinemas</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Hello World</h1>
-    <p>This is my first HTML project.</p>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Academy Cinemas</a>
+    </div>
+</nav>
+
+<div class="container text-center mt-5">
+    <h1>Welcome to Academy Cinemas</h1>
+    <p class="lead">Enjoy the latest movies in comfort.</p>
+
+    <button class="btn btn-primary">
+        Book Tickets
+    </button>
+</div>
+
+<!-- Movie Cards -->
+<div class="container mt-5">
+    <div class="row">
+
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Avengers</h5>
+                    <p class="card-text">Action-packed superhero movie.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Batman</h5>
+                    <p class="card-text">Gotham's Dark Knight returns.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Spider-Man</h5>
+                    <p class="card-text">Friendly neighborhood hero.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Movie Showtimes</h2>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Movie</th>
+                <th>Time</th>
+                <th>Screen</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Avengers</td>
+                <td>2:00 PM</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Batman</td>
+                <td>5:00 PM</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Spider-Man</td>
+                <td>8:00 PM</td>
+                <td>3</td>
+            </tr>
+        </tbody>
+    </table>
+</div><div class="container mt-5 mb-5">
+    <h2 class="text-center mb-4">Contact Us</h2>
+
+    <form>
+        <div class="mb-3">
+            <label class="form-label">Name</label>
+            <input type="text" class="form-control">
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-control">
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Message</label>
+            <textarea class="form-control" rows="4"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-success">
+            Send Message
+        </button>
+    </form>
+</div>
+<footer class="bg-dark text-white text-center p-3 mt-5">
+    <p>&copy; 2026 Academy Cinemas</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
-
 </html>
-
-
